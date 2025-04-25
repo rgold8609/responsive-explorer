@@ -1,22 +1,70 @@
 body{
     background-color: #4c4c47 !important;
 }
+
+
 h1{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
-    font-size: 36px;
+    font-size: 28px;
     color: #e5dcc5 !important;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    color: #848fa5 !important;
+}
+
+hr{
+    border-top: 1px solid #2d2d2a;
+    width: 60%; margin: 20px auto;
 }
 
 .img-size{
-    text-align:center;
     max-width: 100%;
     height: auto;
+    display:block;
+    margin:0 auto;
 }
 .container {
     width: 100% !important;
     padding-right: 0px !important;
     padding-left: 0px !important;
+    
+}
+#top-jumbo{
+    background-color: #c14953 !important;
+}
+.container .jumbotron{
+    border-radius: 0 !important;
+}
+.container {
+    border-radius: 0 !important;
+}
+.navbar{
+    background-color: #2d2d2a;
+    position: sticky;
+    top: 0;
+    
+}
+.navbar-brand .navbar{
+    color:#c14953;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #e5dcc5;
+    }
+.navbar li{
+    border-left: 1px solid #4c4c47;
+}
+.header{
+    text-align: center;
+}
+
+.top-para{
+    text-align: center;
 }
