@@ -96,4 +96,66 @@ hr{
     vertical-align: middle;
     width:100%;
     height: 50px;
+    background-color:#848fa5;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+    color: #4c4c47 !important;
+}
+
+.active{
+    background-color: #c14953;
+}
+
+.about-jumbo{
+    width:100%;
+    background-color: #c14953;
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color:  #c14953;
+}
+.navbar {
+    border:none;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color:  #88353c;
+    color:#e5dcc5;
+}
+
+.navbar-default .navbar-nav li:hover{
+    background-color: #4c4c47;
+    color:#e5dcc5;
+}
+
+.about-me{
+    vertical-align: middle;
+}
+
+.big-space{
+    height: 100px;
+}
+
+.start:hover{
+    background-color: #c14953;
+    color:#e5dcc5 !important;
+}
+
+.contact{
+    vertical-align: middle;
+    width:50%;
+    height: 50px;
+    background-color:#848fa5;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+    color: #4c4c47 !important;
+}
+
+.contact:hover{
+    background-color: #c14953;
+    color:#e5dcc5 !important;
 }
