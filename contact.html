@@ -27,5 +27,27 @@
                 </ul>
             </div>
         </nav>
+        <div class="container-fluid">
+            <h1 id="flashyheader">Want something animated?</h1>
+        </div>
+        <script>
+            var flashy = document.getElementById("flashyheader");
+            var timer = setInterval(colorSwap, 1000);
+            
+            function colorSwap()
+            {
+                console.log(flashy.style.color);
+                if(flashy.style.color == "#c14953")
+                {
+                    flashy.style.color = "#e5dcc5";
+                    console.log(1);
+                }
+                else
+                {
+                    flashy.style.color = "#c14953";
+                    console.log(2);
+                }
+            }
+        </script>
     </body>
 </html>

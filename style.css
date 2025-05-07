@@ -159,3 +159,24 @@ hr{
     background-color: #c14953;
     color:#e5dcc5 !important;
 }
+
+#bigheader{
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    color: #e5dcc5 !important;
+    text-align: center;
+}
+
+#flashyheader{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 70px;
+    color: #e5dcc5;
+    margin-bottom:0%;
+    text-align: center;
+}
+
