@@ -28,7 +28,7 @@
             </div>
         </nav>
         <div class="container-fluid">
-            <h1 id="flashyheader">Want something animated?</h1>
+            <h3 id="flashyheader">Want something animated?</h3>
         </div>
         <script>
             var flashy = document.getElementById("flashyheader");
@@ -37,17 +37,44 @@
             function colorSwap()
             {
                 console.log(flashy.style.color);
-                if(flashy.style.color == "#c14953")
+                if(flashy.style.color == "rgb(193, 73, 83)")
                 {
-                    flashy.style.color = "#e5dcc5";
+                    flashy.style.color = "rgb(229, 220, 197)";
                     console.log(1);
                 }
                 else
                 {
-                    flashy.style.color = "#c14953";
+                    flashy.style.color = "rgb(193, 73, 83)";
                     console.log(2);
                 }
             }
         </script>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <h1 style="text-align: center;">I take suggestions! Send me your ideas below.</h1>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <h1 style="font-size: 40px !important; text-align: center;">Rules</h1>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <ul class="rules">
+                        <li>No longer than 25 seconds</li>
+                        <li>No NSFW</li>
+                        <li>No hateful messaging</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
     </body>
 </html>

@@ -180,3 +180,13 @@ hr{
     text-align: center;
 }
 
+
+.rules li{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px !important;
+    color: #e5dcc5 !important;
+    margin-bottom:0%;
+}
