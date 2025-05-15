@@ -190,3 +190,27 @@ hr{
     color: #e5dcc5 !important;
     margin-bottom:0%;
 }
+
+#click-header{
+    text-align: center;
+    color:#848fa5 !important;
+    text-decoration: underline;
+}
+
+#reveal{
+    visibility:hidden;
+}
+
+#click-header:hover{
+    color:#656e80 !important;
+}
+
+.section{
+    border: 3px solid #848fa5;
+    padding: 15px;
+}
+
+.note{
+    border: 5px solid #c14953;
+    padding: 15px;
+}
